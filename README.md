@@ -19,3 +19,12 @@ Reading 02
     3. These methods — including .click(), .focus(), .blur(), .change(), etc. — are shorthand for jQuery's .on() method. The on method is useful for binding the same handler function to multiple events, when you want to provide data to the event handler, when you are working with custom events, or when you want to pass an object of multiple events and handlers.
     4. jQuery is a powerful and widely used JavaScript library to simplify common web scripting task.
     5. jQuery is a fast, lightweight, and feature-rich JavaScript library that is based on the principle "write less, do more". It's easy-to-use APIs makes the things like HTML document traversal and manipulation, event handling, adding animation effects to a web page much simpler
+
+Reading 03
+
+## Fexbox and Templating
+    1. JavaScript templates are a method of separating HTML structure from the content contained within. 
+    2. Templating systems generally introduce some new syntax.
+    3. Some of the popular templating engines out are: Mustache, Handlebars and jQuery Template.
+    4. Mustache is a multi-language, logic-less templating system. The mustache.js implementation is just one of many.  
+    5. Handlebars.js is built on top of Mustache and is mostly compatible with Mustache templates. It provides everything mustache.js provides, plus it supports block expressions and precompiled templates.
