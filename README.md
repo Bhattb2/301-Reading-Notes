@@ -68,3 +68,29 @@ Grid contains alignment features so we can control how the items align once plac
 #### Control of overlapping content
 More than one item can be placed into a grid cell or area and, they can partially overlap each other. This layering may then be controlled with the z-index property.
 Grid is a powerful specification that, when combined with other parts of CSS such as flexbox, can help you create layouts that were previously impossible to build in CSS. It all starts by creating a grid in your grid container.
+
+Reading 06
+
+# Node.js
+## What Node.js really is.
+Node.js is a software platform to create fast, scalable web applications quickly. These applications also use JavaScript on the server and web browsers. JavaScript is limited to the browser. So, some people took the engine that powered JavaScript in Google Chrome and put it out on the table.
+Node.js makes it easy to build plugins, frameworks, and other code used in different applications. You can make JavaScript work outside of your browser. You can plug in various packages, modules, and middleware and use it to build web-apps, desktop-apps, and mobile-apps.
+Since the outside environment is much larger and so very different from that of a browser, we consider JavaScript-on-the-table as a separate entity in itself and call it Node.js.
+### Feature 1: It is asynchronous.
+Much like JavaScript, Node.js is asynchronous (or non-blocking). 
+What it means to be asynchronous is that, code on line 10 may start executing before code on line 1 completes. It doesn’t always go line-by-line in a synchronous manner.
+JavaScript is a programming language, Node.js is not. A Node.js program is still a JavaScript program. It is just not written to run on web-browsers. 
+### Feature 2: It is single-threaded.
+Unlike in a server, where a thread is spawned on a per-request basis, a single thread is responsible for handling all the client requests in Node.js. 
+### Feature 3: It is event-driven.
+Node.js is event-driven and its event-loop makes it a great choice for real-time applications. 
+#### When to use Node.js
+You can use Node.js if you:
+•	want to build network-heavy applications
+•	want to build something quick that is supposed to be scalable
+•	want to build a real-time application
+•	are going to deal with JSON data a lot
+
+You can use Node.js if you
+•	want to build computation-heavy applications
+•	are concerned about robustness and stability
