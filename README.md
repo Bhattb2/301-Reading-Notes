@@ -1,5 +1,7 @@
-# 301-Reading-Notes-
+# 301-Reading-Notes
 Reading 01
+
+## Table of Contents
 
 ## Day 1 Notes
     1. Responsive design allows the content of the page to adjust to the screen size in the desktop or the mobile device. 
