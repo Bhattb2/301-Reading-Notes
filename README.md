@@ -25,11 +25,11 @@ Reading 02
 Reading 03
 
 ## Fexbox and Templating
-    1. JavaScript templates are a method of separating HTML structure from the content contained within. 
-    2. Templating systems generally introduce some new syntax.
-    3. Some of the popular templating engines out are: Mustache, Handlebars and jQuery Template.
-    4. Mustache is a multi-language, logic-less templating system. The mustache.js implementation is just one of many.  
-    5. Handlebars.js is built on top of Mustache and is mostly compatible with Mustache templates. It provides everything mustache.js provides, plus it supports block expressions and precompiled templates.
+1. JavaScript templates are a method of separating HTML structure from the content contained within. 
+2. Templating systems generally introduce some new syntax.
+3. Some of the popular templating engines out are: Mustache, Handlebars and jQuery Template.
+4. Mustache is a multi-language, logic-less templating system. The mustache.js implementation is just one of many.  
+5. Handlebars.js is built on top of Mustache and is mostly compatible with Mustache templates. It provides everything mustache.js provides, plus it supports block expressions and precompiled templates.
 
 Reading 04
 
@@ -40,15 +40,15 @@ Basically, a regular expression is a pattern describing a certain amount of text
 Regex is used for finding patterns or replacing the matched patterns
 RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).
 
-    •	Supports JavaScript & PHP/PCRE RegEx.
-    •	Results update in real-time as you type.
-    •   Roll over a match or expression for details.
-    •	Validate patterns with suites of Tests.
-    •	Save & share expressions with others.
-    •	Use Tools to explore your results.
-    •	Full RegEx Reference with help & examples.
-    •	Undo & Redo with ctrl-Z / Y in editors.
-    •	Search for & rate Community Patterns.
+* Supports JavaScript & PHP/PCRE RegEx.
+* Results update in real-time as you type.
+* Roll over a match or expression for details.
+* Validate patterns with suites of Tests.
+* Save & share expressions with others.
+* Use Tools to explore your results.
+* Full RegEx Reference with help & examples.
+* Undo & Redo with ctrl-Z / Y in editors.
+* Search for & rate Community Patterns.
 
 CSS Grid Layout introduces a two-dimensional grid system to CSS. Grids can be used to lay out major page areas or small user interface elements. This article introduces the CSS Grid Layout and the new terminology that is part of the CSS Grid Layout Level 1 specification. The features shown in this overview will then be explained in greater detail in the rest of this guide.
 
@@ -88,11 +88,48 @@ Unlike in a server, where a thread is spawned on a per-request basis, a single t
 Node.js is event-driven and its event-loop makes it a great choice for real-time applications. 
 #### When to use Node.js
 You can use Node.js if you:
-•	want to build network-heavy applications
-•	want to build something quick that is supposed to be scalable
-•	want to build a real-time application
-•	are going to deal with JSON data a lot
+* want to build network-heavy applications
+* want to build something quick that is supposed to be scalable
+* want to build a real-time application
+* are going to deal with JSON data a lot
 
 You can use Node.js if you
-•	want to build computation-heavy applications
-•	are concerned about robustness and stability
+* want to build computation-heavy applications
+* are concerned about robustness and stability
+
+Reading 07
+
+# APIs Continued
+
+## What Google Learned From Its Quest to Build the Perfect Team
+My main take away is about working in teams/groups and how group dynamics play a role in the success or failure of the team. How well they work together and what attributes to their success. A great deal of research has gone into this and the article covered a lot of information - I was inspired. I was intrigued by the Google discovered that success didn’t come in a singular form - that groups of wildly different makeups could all work well together under different circumstances. With increased Psychological Safety and Social Sensitivity, so did Group Success. It’s heartening to read about these concepts being considered by a tech giant like Google. 
+* the shared belief held by members of a team that the team is safe for interpersonal risk-taking
+* a sense of confidence that the team will not embarrass, reject or punish someone for speaking up
+* a climate characterized by interpersonal trust and mutual respect in which people are comfortable being themselves 
+Success attributes:
+* Sharing talk time
+* High average social sensitivity
+* Sensitive and sharing
+* BEING NICE
+* Creating a safe space for risk-taking
+* Trust and respect
+* Where folks can be comfortable
+•	Psychological safety
+Merging work life and life life
+Creating more welcoming culture
+Nobody wants to put on a work mask
+
+## REST
+
+### REST stands for REpresentational State Transfer.
+* It means when a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource. 
+* In order for your APIs to be RESTful, minimum set constraint need to be followed when you write them. 
+* The REST set of constraints will makes your APIs easier to use and also easier to discover for a developer
+
+## Dark Sky API — Overview
+The Dark Sky API allows you to look up the weather anywhere on the globe, returning (where available):
+* Current weather conditions
+* Minute-by-minute forecasts out to one hour
+* Hour-by-hour and day-by-day forecasts out to seven days
+* Hour-by-hour and day-by-day observations going back decades
+* Severe weather alerts in the US, Canada, European Union member nations, and Israel
