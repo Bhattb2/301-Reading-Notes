@@ -71,6 +71,22 @@ Grid contains alignment features so we can control how the items align once plac
 More than one item can be placed into a grid cell or area and, they can partially overlap each other. This layering may then be controlled with the z-index property.
 Grid is a powerful specification that, when combined with other parts of CSS such as flexbox, can help you create layouts that were previously impossible to build in CSS. It all starts by creating a grid in your grid container.
 
+Reading 05
+
+# What is Heroku?
+
+* Heroku is a cloud service provider and software development platform which facilitates fast and effective building, deploying and scaling of web applications.
+* Heroku is a platform that enables developers to deploy, scale, and manage their applications without the need to set up and administer their own servers.
+* Heroku offers a ready-to-use environment that allows you to deploy your code fast
+
+# NODE
+
+* js (Node) is an open source development platform for executing JavaScript code server-side.
+* Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds, and web push notifications.
+* It is a popular tool for almost any kind of project!
+* js is designed to build scalable network applications.
+* js is similar in design to and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further
+
 Reading 06
 
 # Node.js

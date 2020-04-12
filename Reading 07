@@ -1,0 +1,36 @@
+Reading 07
+
+# APIs Continued
+
+## What Google Learned From Its Quest to Build the Perfect Team
+My main take away is about working in teams/groups and how group dynamics play a role in the success or failure of the team. How well they work together and what attributes to their success. A great deal of research has gone into this and the article covered a lot of information - I was inspired. I was intrigued by the Google discovered that success didn’t come in a singular form - that groups of wildly different makeups could all work well together under different circumstances. With increased Psychological Safety and Social Sensitivity, so did Group Success. It’s heartening to read about these concepts being considered by a tech giant like Google. 
+* the shared belief held by members of a team that the team is safe for interpersonal risk-taking
+* a sense of confidence that the team will not embarrass, reject or punish someone for speaking up
+* a climate characterized by interpersonal trust and mutual respect in which people are comfortable being themselves 
+Success attributes:
+* Sharing talk time
+* High average social sensitivity
+* Sensitive and sharing
+* BEING NICE
+* Creating a safe space for risk-taking
+* Trust and respect
+* Where folks can be comfortable
+•	Psychological safety
+Merging work life and life life
+Creating more welcoming culture
+Nobody wants to put on a work mask
+
+## REST
+
+### REST stands for REpresentational State Transfer.
+* It means when a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource. 
+* In order for your APIs to be RESTful, minimum set constraint need to be followed when you write them. 
+* The REST set of constraints will makes your APIs easier to use and also easier to discover for a developer
+
+## Dark Sky API — Overview
+The Dark Sky API allows you to look up the weather anywhere on the globe, returning (where available):
+* Current weather conditions
+* Minute-by-minute forecasts out to one hour
+* Hour-by-hour and day-by-day forecasts out to seven days
+* Hour-by-hour and day-by-day observations going back decades
+* Severe weather alerts in the US, Canada, European Union member nations, and Israel
