@@ -1,0 +1,12 @@
+What is Heroku?
+
+Heroku is a cloud service provider and software development platform which facilitates fast and effective building, deploying and scaling of web applications.
+Heroku is a platform that enables developers to deploy, scale, and manage their applications without the need to set up and administer their own servers.
+Heroku offers a ready-to-use environment that allows you to deploy your code fast
+NODE
+
+js (Node) is an open source development platform for executing JavaScript code server-side.
+Node is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds, and web push notifications.
+It is a popular tool for almost any kind of project!
+js is designed to build scalable network applications.
+js is similar in design to and influenced by, systems like Ruby's Event Machine and Python's Twisted. Node.js takes the event model a bit further
