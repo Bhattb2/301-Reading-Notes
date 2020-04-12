@@ -1,0 +1,8 @@
+Reading 03
+
+## Fexbox and Templating
+1. JavaScript templates are a method of separating HTML structure from the content contained within. 
+2. Templating systems generally introduce some new syntax.
+3. Some of the popular templating engines out are: Mustache, Handlebars and jQuery Template.
+4. Mustache is a multi-language, logic-less templating system. The mustache.js implementation is just one of many.  
+5. Handlebars.js is built on top of Mustache and is mostly compatible with Mustache templates. It provides everything mustache.js provides, plus it supports block expressions and precompiled templates.
