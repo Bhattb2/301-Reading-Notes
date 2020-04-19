@@ -1,0 +1,32 @@
+What is Functional Programming?
+
+Functional Programming can be described as a programming archetype where one can mostly build and construct code using functions. These functions take input which is called as arguments then shows the output based on the inputs being taken which, given the same input always results in the same output.
+It doesn’t allow any mutation nor shared state --- functions should remain pure and true to their expression under this paradigm. It is declarative rather than imperative/procedural.
+Functional Programming can also be described simply a bunch of functions that don’t allow outside scope nor mutation of objects.
+Instead we mutate arrays by adding/removing inside the scope to achieve a solution.
+Functional is pure, straightforward and doesn’t mutate. It presents an answer to its elegant function in a straightforward manner.
+Noteworthy is that JavaScript is a multi-paradigm programming language and Functional Programming is one of them. 
+Functional Programming Features
+Some of the most notable features of Functional Programming are:
+First-Class Citizen Functions
+What’s good about Functional Programming is its functions are first-class citizens: you can always insert functions inside a function without any restrictions present. 
+Higher-Order Functions
+A higher-order function is a function that gets a function as an argument. It may or may not return a function as its resulting output.
+
+Benefits of Functional Programming
+One of the reasons Functional Programming became popular were its benefits.
+It doesn’t have side-effects and it’s immutable
+One of the major benefits of using Functional Programming is its ability to not show any side-effects in the code.
+ It reduces the likelihood that the code will introduce some bugs since it’s not going to mutate and the bug is easy to spot since it’s within the scope of the function. 
+Once a variable has a value assigned to it, it is no longer subject to change.
+Functional Programming is a Pure Function, this means that it won’t be borrowing any data outside of its scope, let alone allow any mutable objects.
+
+What is Refactoring?
+Code refactoring is the process of changing a program’s source code without modifying its external functional behavior, to improve some of the nonfunctional attributes of the software.
+Basically, it is  re-writing code so that it will be easier to read, understand and easily adapt to changes in the future. .
+Code Refactoring also helps us to cut down the size of the code resulting in performance gain(maybe?).
+
+What to keep in mind during refactoring?
+•	It should be done as a series of small iterations rather than re-writing the whole system again. 
+•	Each iteration should be responsible for slightly improving the code while leaving the system in working order.
+•	There should NOT be any new development during Code Refactoring – just the bare minimum, 
