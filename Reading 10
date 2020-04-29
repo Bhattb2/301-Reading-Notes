@@ -1,0 +1,8 @@
+How do I use the call stack?
+The call stack is where we find the stack frames that control program flow. When a function is called, it creates a stack frame that tells the computer how to return control to its caller after it has finished executing. Stack frames are also where local variables and function arguments are 'stored'. We can look at these stack frames to determine how our program is running. Finding the list of stack frames below the current frame is called a backtrace.
+Call stack is a set of lines, which is usually read from top to bottom - meaning moving from current locations to callers. The bottom line was executed first. The top line is executed last and it is the current routine.
+For example, if you have this call stack (short pseudo form):
+• DoSomething
+• DoWork
+• Run
+This means that Run procedure was executed first. Run called DoWork, which in turn called DoSomething
