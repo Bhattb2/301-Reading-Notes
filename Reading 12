@@ -1,0 +1,14 @@
+EJS PARTIALS
+
+EJS, embedded javascript, is a templating language. EJS combines data and a template to produce HTML. One of the most important features in EJS is its use of partials. Partials allow you to define something once, and then apply it to any page in your application.
+Partial templates are larger sections of HTML which need to be included multiple times from multiple pages. Common uses for partial templates include headers, footers, site menus, login boxes, alerts, and so on.
+
+•	EJS Partials help us avoid repetition of the same code on several web pages.
+For example, you may want the same header for several web pages.
+
+•	EJS partials work like EJS layouts too in creating a single fix content on a web page.
+
+Note! You should have Node.js installed in your pc before you can start using EJS.
+To begin, ensure you have EJS and express installed via npm. Unlike EJS Layouts, EJS partials can work without the express-ejs-layouts module. EJS partials apply in cases like creating objects like header, footer, div.
+
+•	For a web page to contain the partial, it must be connected to each partial via a line of code, unlike layouts which apply everywhere.

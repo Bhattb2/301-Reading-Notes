@@ -196,7 +196,7 @@ Once a variable has a value assigned to it, it is no longer subject to change.
 Functional Programming is a Pure Function, this means that it won’t be borrowing any data outside of its scope, let alone allow any mutable objects.
 
 
-# Refactoring 
+# Refactoring
 ## What is Refactoring?
 Code refactoring is the process of changing a program’s source code without modifying its external functional behavior, to improve some of the nonfunctional attributes of the software.
 Basically, it is  re-writing code so that it will be easier to read, understand and easily adapt to changes in the future. .
@@ -205,4 +205,21 @@ Code Refactoring also helps us to cut down the size of the code resulting in per
 What to keep in mind during refactoring?
 •	It should be done as a series of small iterations rather than re-writing the whole system again. 
 •	Each iteration should be responsible for slightly improving the code while leaving the system in working order.
-•	There should NOT be any new development during Code Refactoring – just the bare minimum, 
+•	There should NOT be any new development during Code Refactoring – just the bare minimum.
+
+
+Reading 12
+
+# EJS PARTIALS
+
+EJS, embedded javascript, is a templating language. EJS combines data and a template to produce HTML. One of the most important features in EJS is its use of partials. Partials allow you to define something once, and then apply it to any page in your application.
+
+Partial templates are larger sections of HTML which need to be included multiple times from multiple pages. Common uses for partial templates include headers, footers, site menus, login boxes, alerts, and so on.
+
+* EJS Partials help us avoid repetition of the same code on several web pages.
+For example, you may want the same header for several web pages.
+* EJS partials work like EJS layouts too in creating a single fix content on a web page.
+
+Note! You should have Node.js installed in your pc before you can start using EJS.
+To begin, ensure you have EJS and express installed via npm. Unlike EJS Layouts, EJS partials can work without the express-ejs-layouts module. EJS partials apply in cases like creating objects like header, footer, div.
+* For a web page to contain the partial, it must be connected to each partial via a line of code, unlike layouts which apply everywhere.
