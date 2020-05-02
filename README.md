@@ -3,7 +3,8 @@ Reading 01
 
 ## Table of Contents
 
-## Day 1 Notes
+Reading 01
+## SMACSS and Responsive Web Design
     1. Responsive design allows the content of the page to adjust to the screen size in the desktop or the mobile device. 
     2. Relative Viewport Lengths are relative lengths associated specifically to the viewport size of the browser or the device.
         a. vw = Viewport's width
@@ -247,7 +248,7 @@ Reading 13
 # What are web forms?
 Web forms are one of the main points of interaction between a user and a web site or application. Forms allow users to enter data, which is generally sent to a web server for processing and storage, or used on the client-side to immediately update the interface in some way (for example, add another item to a list, or show or hide a UI feature).
 
-A web form's HTML is made up of one or more form controls (sometimes called widgets), plus some additional elements to help structure the overall form — they are often referred to as HTML forms. The controls can be single or multi-line text fields, dropdown boxes, buttons, checkboxes, or radio buttons, and are mostly created using the 'input' element, although there are some other elements to learn about too.
+A web form's HTML is made up of one or more form controls (sometimes called widgets), plus some additional elements to help structure the overall form — they are often referred to as HTML forms. The controls can be single or multi-line text fields, dropdown boxes, buttons, checkboxes, or radio buttons, and are mostly created using the 'input element, although there are some other elements to learn about too.
 
 Form controls can also be programmed to enforce specific formats or values to be entered (form validation), and paired with text labels that describe their purpose to both sighted and blind users.
 
