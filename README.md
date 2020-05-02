@@ -240,3 +240,40 @@ For example, you may want the same header for several web pages.
 Note! You should have Node.js installed in your pc before you can start using EJS.
 To begin, ensure you have EJS and express installed via npm. Unlike EJS Layouts, EJS partials can work without the express-ejs-layouts module. EJS partials apply in cases like creating objects like header, footer, div.
 * For a web page to contain the partial, it must be connected to each partial via a line of code, unlike layouts which apply everywhere.
+
+
+Reading 13
+
+# What are web forms?
+Web forms are one of the main points of interaction between a user and a web site or application. Forms allow users to enter data, which is generally sent to a web server for processing and storage, or used on the client-side to immediately update the interface in some way (for example, add another item to a list, or show or hide a UI feature).
+
+A web form's HTML is made up of one or more form controls (sometimes called widgets), plus some additional elements to help structure the overall form — they are often referred to as HTML forms. The controls can be single or multi-line text fields, dropdown boxes, buttons, checkboxes, or radio buttons, and are mostly created using the 'input' element, although there are some other elements to learn about too.
+
+Form controls can also be programmed to enforce specific formats or values to be entered (form validation), and paired with text labels that describe their purpose to both sighted and blind users.
+
+Forms are one of the most powerful tools any website can feature, whether you're gathering email newsletter signups or work inquiries from potential clients. Webflow forms are fully customizable.
+
+## Structure of your form 
+To customize your form, you'll be editing the content inside the form wrapper → form element.
+
+By default, the form includes some essential form fields and elements. You can add and remove any form element like an input field or a checkbox inside of the form block to customize your form as needed. You can also add other elements like images and text blocks.
+
+## Form elements 
+* **Label** — A label is used to describe the function or purpose of a form field.
+* **Input** — The input field is used to collect single-line data, like a one-word response to a question.
+* **File upload** — The file upload field allows site visitors to attach a file to their form submission. Read all about the File upload input and how you can customize it.
+* **Text area** — The text area field allows visitors to input multi-line data, like a lengthy message.
+* **Checkbox** — The checkbox field is best used for input data where the visitor can select one or multiple options. Learn more about checkboxes.
+* **Radio button** — The radio button field is best used for input data where the visitor can select only one of many options. Learn more about radio buttons.
+* **Select** — The select menu field behaves very similar to a dropdown element, where you can add a list of different options for your visitor to select from. You can also allow for multiple selections. Learn more about select inputs.
+* **reCAPTCHA** — reCAPTCHA is a Google service that helps prevent spam through forms. Learn how to add reCAPTCHA in your forms.
+* **Form button** — No form is complete without a submit button! This special button is what triggers the action of the form to complete.
+
+## Input settings 
+Each form element has different input settings based on its type.
+
+* **Name** — All form elements have a name field. This is how you identify the field on form submissions.
+* **Required** — Each form element has the required option. This lets you choose whether the user can submit the form without filling this field out.
+* **Placeholder** — For input and text area fields, the placeholder is the text that displays in an empty input field. It can be a sample text or a description of the required information. You can style a placeholder text from the states menu.
+* **Text** type — here, you choose what type of input you are asking for. For example, an input field with text type: email will only accept email addresses. A phone text type will only accept phone numbers. A password text type will hide the typed characters in the input field.
+* **Autofocus** — If you want an input field to get focus when the page loads, check the autofocus option in the form settings. When a form element has autofocus checked, the page will load and scroll to that element if the form is below the fold.
