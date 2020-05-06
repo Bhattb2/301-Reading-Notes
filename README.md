@@ -25,7 +25,7 @@ Reading 02
 
 Reading 03
 
-## Fexbox and Templating
+## Flexbox and Templating
 1. JavaScript templates are a method of separating HTML structure from the content contained within. 
 2. Templating systems generally introduce some new syntax.
 3. Some of the popular templating engines out are: Mustache, Handlebars and jQuery Template.
@@ -278,3 +278,55 @@ Each form element has different input settings based on its type.
 * **Placeholder** — For input and text area fields, the placeholder is the text that displays in an empty input field. It can be a sample text or a description of the required information. You can style a placeholder text from the states menu.
 * **Text** type — here, you choose what type of input you are asking for. For example, an input field with text type: email will only accept email addresses. A phone text type will only accept phone numbers. A password text type will hide the typed characters in the input field.
 * **Autofocus** — If you want an input field to get focus when the page loads, check the autofocus option in the form settings. When a form element has autofocus checked, the page will load and scroll to that element if the form is below the fold.
+
+
+Reading 14
+
+# Data Normalization
+Data Normalization in simple words is a process or a way to maintaining or organizing data in a database. Now, that’s something obvious, but what is the purpose of this whole process? It actually helps to split a large table into different smaller tables. It defines a relationship between these smaller tables that increase the clarity in organizing data.
+
+Normalization helps in decomposing tables to eliminate data redundancy and unwanted characteristics like Insertion, Updation and Deletion Anomalies. Normalizing a data is a multi-step process that puts data in tabular form by eliminating redundant data from the relation tables.
+
+## What is Database?
+A database, as the name indicates, is a container that contains the group/package of information. When the information stored in a database then it can be easy to access, manage and update.
+
+Every small portion of information becomes the data in a database. Example, Employee name is a data, Employee Id is a data, and address is a data, height, weight, qualification everything is data. We can say that Data is a kind of raw facts, used to refine some useful information.
+
+When the raw facts/data combined together after proper refinement, it becomes information. Then we can store that processed information in a database in a tabular form.
+
+## Why there is a need for data?
+
+To perform some actions to get some result we need data. Before Database, everywhere data was stored in sheets, books & etc and whenever there were any changes in data that will become messy to correct data or there may be chances of data loss.
+
+After Database, it is easy to store data in a proper way which is easy to access in future. If there are any changes in information, we can update/delete them easily.
+
+### What kind of data stored in a database?
+We store data in a group that is known as a table (identify where data stored and under what name). This saves the time to find particular data in a whole database.
+
+## DATA NORMALIZATION
+Normalization is a process or technique to organize data in the database. It is a systematic approach of splitting a table to eliminate different anomalies (like Insertion, Update and Deletion Anamolies) and data redundancy.
+
+When the table normalized that makes database suitable for general-purpose query and free of certain unwanted characteristics that could lead to a loss of data integrity.
+Normalization means splitting a table into different small tables which will have less number of attributes in such a way that design of the table must not contain any problem of inserting, deleting, updating anomalies and guarantees no data redundancy.
+
+### What purpose we need to do normalization?
+
+Normalization is a technique for organizing data in a database. It is important that a database is normalized to minimize redundancy (duplicate data) and to ensure only related data is stored in each table. It also prevents any issues stemming from database modifications such as insertions, deletions, and updates.
+The stages of organization are called normal forms. 
+There is two main purpose to use Normalization:
+
+* Ensuring dependencies between data make sense which means data is logically stored.
+* Eliminating redundant (useless) data.
+
+### Normalization Form
+To normalize a table we have to use some forms :
+1.	First Normal Form (1NF)
+2.	Second Normal Form (2NF)
+3.	Third Normal Form (3NF)
+4.	Boyce and Codd Normal Form (BCNF)
+5.	Fifth Normal Form (5NF)
+
+### Conclusion
+Whatever data you store in a database but it should be well structured. With the normalization, we can easily maintain our data in an effective manner and can make a relationship between them that helps to reduce data redundancy. It helps to achieve ACID properties (Data Atomicity, Data Consistency, Data Integrity, & Data Durability).
+In Normalization, Functional dependencies are a very important component of the normalized data process. Most of the time, we normalize database up to the third normal forms but we can go for other normal forms as well. I would like to discuss them later.
+
